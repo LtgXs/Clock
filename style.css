@@ -179,7 +179,7 @@ body.light .sc:before {
   height: 0px;
   font-size: 0px;
   border-radius: 50%;
-  background: #d1dae3;
+  background: none;
   color: #d1dae3;
   font-family: consolas;
   cursor: pointer;
@@ -196,7 +196,6 @@ body.light .sc:before {
 
 body.light .toggleClass {
   background: none;
-  background-image: url(./img/head.png);
   background-size: 0px 0px;
   background-position: center;
   color: #091921;
