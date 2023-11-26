@@ -173,14 +173,13 @@ body.light .sc:before {
 
 .toggleClass {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  width: 0px;
-  height: 0px;
-  font-size: 0px;
+  top: 1px;
+  right: 1px;
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
   border-radius: 50%;
   background: none;
-  color: #d1dae3;
   font-family: consolas;
   cursor: pointer;
   display: flex;
@@ -189,14 +188,14 @@ body.light .sc:before {
 
 .toggleClass::before {
   position: absolute;
-  left: 0px;
+  left: 1px;
   content: '';
   white-space: nowrap;
 }
 
 body.light .toggleClass {
   background: none;
-  background-size: 0px 0px;
+  background-size: 1px 1px;
   background-position: center;
   color: #091921;
 }
