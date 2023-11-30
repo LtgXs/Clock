@@ -50,6 +50,8 @@ body {
 
 .background {
 	position: fixed;
+        width: 0px;
+        height: 1px;
 	top: -200;
 	left: 0;
 	right: 0;
