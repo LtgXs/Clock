@@ -11,7 +11,7 @@ let AutoDelayRefresh = 18000000;
 let UserDelayRefresh = 300000;
 let WeatherData = {
     apiKey: 'a5055cffdd594c968fe0b78cd9f652d3',
-    cityName: '广州',
+    cityName: '海珠',
     UpDataTime: '',
     cityNameStr: '',
     cityCode: '',
