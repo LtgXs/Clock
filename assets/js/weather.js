@@ -62,7 +62,7 @@ new Vue({
 function getNowWeather() { // Request
     console.log(`Requesting weather information...`)
     but.classList.add('move');
-    fetch(`https://geoapi.qweather.com/v2/city/lookup?location=广州&key=${WeatherData.apiKey}&lang=en`) // Update ciey id
+    fetch(`https://geoapi.qweather.com/v2/city/lookup?location=${WeatherData.cityName}&key=${WeatherData.apiKey}&lang=en`) // Update ciey id
         .then(response => response.json())
         .then(UpDataCityName)
         .then(() => fetch(`https://devapi.qweather.com/v7/weather/now?location=101280101&key=${WeatherData.apiKey}&lang=en`)) // Get Realtime weather
