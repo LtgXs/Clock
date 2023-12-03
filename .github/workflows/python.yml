@@ -3,7 +3,7 @@ name: Run python script and push files
 
 on:
   schedule:
-    - cron:  '2 7,16 * * *' # This runs at 1:00 UTC+8 each day.
+    - cron:  '0 7,16 * * *' # This runs at 1:00 UTC+8 each day.
 
   workflow_dispatch: # This allows manual trigger.
 
