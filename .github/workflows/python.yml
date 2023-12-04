@@ -4,7 +4,7 @@ name: Run python script and push files
 on:
   schedule:
     - cron:  '15 9 * * *' # runs at 5：15 UTC+8 each day(For global update)
-    - cron:  '0 16 * * *' # runs at 0:00 UTC+8 each day(For CN update)
+    - cron:  '55 15 * * *' # runs at 0:00 UTC+8 each day(For CN update)
 
   workflow_dispatch: # This allows manual trigger.
 
