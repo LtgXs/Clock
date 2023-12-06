@@ -7,8 +7,8 @@
 
 let userKeyLock = false;
 let RefreshBtn = true;
-let AutoDelayRefresh = 18000000;
-let UserDelayRefresh = 300000;
+let AutoDelayRefresh = 300000;
+let UserDelayRefresh = 100000;
 let WeatherData = {
     apiKey: 'a5055cffdd594c968fe0b78cd9f652d3',
     cityName: '海珠',
