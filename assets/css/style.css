@@ -14,7 +14,7 @@ body {
   background-size: 100% 100%;
   background-attachment: fixed;
 }
-
+/*
 .clock {
   width: 350px;
   height: 350px;
@@ -90,7 +90,8 @@ body.light .clock::before {
 .sc {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center; 
+
   position: absolute;
   border-radius: 50%;
 }
@@ -198,3 +199,4 @@ body.light .toggleClass {
 body.light .toggleClass::before {
   content: '';
 }
+*/
